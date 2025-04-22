@@ -6,3 +6,28 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #bcc7e3;
+}
+
+.container {
+    position: relative;
+    max-width: 18.75rem;
+    width: 100%;
+    border-radius: .75rem;
+    padding: .625rem 1.25rem 1.25rem;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+    
+}
+
+.buttons {
+    display: grid;
+    grid-gap: .625rem;
+    grid-template-columns: repeat(4, 1fr);
+}
