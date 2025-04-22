@@ -23,11 +23,37 @@ body {
     padding: .625rem 1.25rem 1.25rem;
     background-color: #fff;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+    .display {
+        height: 5rem;
+        width: 100%;
+        margin-bottom: .625rem;
+        outline: none;
+        border: none;
+        text-align: right;
+        margin-bottom: .625rem;
+        color: #000e1a;
+        font-size: 2em;
+        pointer-events: none;
+    }
+    .buttons {
+        display: grid;
+        grid-gap: .625rem;
+        grid-template-columns: repeat(4, 1fr);
+        button {
+            padding: .625rem .625rem;
+            border-radius: .375rem;
+            border: none;
+            font-size: 1.5em;
+            cursor: pointer;
+            background-color: #eee;
+            &:hover {
+                background-color: #e9e9e9;
+            }
+            &:active {
+                transform: scale(0.98);
+            }
+        }
+    }
     
 }
 
-.buttons {
-    display: grid;
-    grid-gap: .625rem;
-    grid-template-columns: repeat(4, 1fr);
-}
