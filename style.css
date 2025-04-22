@@ -85,6 +85,17 @@ body {
                 color: #ffffff;background-color: #c8d0e5
             }
         }
+        .operatorac {
+            color:  #ffffff;
+            background-color: #a2a9ba;
+            transition: all 0.2s ;
+            &:hover {
+                background-color: #858b99;
+            }
+            &:active {
+                color: #ffffff;background-color: #c8d0e5
+            }
+        }
     }
     
 }
