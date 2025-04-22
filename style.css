@@ -23,14 +23,16 @@ body {
     padding: .625rem 1.25rem 1.25rem;
     background-color: #fff;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+    height: fit-content;
     .display {
         height: 5rem;
         width: 100%;
-        margin-bottom: .625rem;
+        margin: .625rem 0;
         outline: none;
         border: 1px solid #edeff5;
         border-radius: .375rem;
         text-align: right;
+        padding: 0 .625rem;
         margin-bottom: .625rem;
         color: #000e1a;
         font-size: 2em;
