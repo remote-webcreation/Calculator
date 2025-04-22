@@ -28,7 +28,8 @@ body {
         width: 100%;
         margin-bottom: .625rem;
         outline: none;
-        border: none;
+        border: 1px solid #edeff5;
+        border-radius: .375rem;
         text-align: right;
         margin-bottom: .625rem;
         color: #000e1a;
@@ -46,11 +47,34 @@ body {
             font-size: 1.5em;
             cursor: pointer;
             background-color: #eee;
+            transition: all 0.2s ;
             &:hover {
                 background-color: #e9e9e9;
             }
             &:active {
                 transform: scale(0.98);
+            }
+        }
+        .operator {
+            color: #ffffff;
+            background-color: #c8d0e5;
+            transition: all 0.2s ;
+            &:hover {
+                background-color: #dae3f9;
+            }
+            &:active {
+                color: #000e1a;
+            }
+        }
+        .operatorr {
+            color:  #ffffff;
+            background-color: #a2a9ba;
+            transition: all 0.2s ;
+            &:hover {
+                background-color: #858b99;
+            }
+            &:active {
+                color: #ffffff;background-color: #c8d0e5
             }
         }
     }
